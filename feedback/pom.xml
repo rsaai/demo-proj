@@ -4,13 +4,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>1234</groupId>
-  <artifactId>demo-proj</artifactId>
+  <groupId>rsaai</groupId>
+  <artifactId>feedback</artifactId>
   <version>1.0</version>
   <packaging>war</packaging>
 
-  <name>demo-proj</name>
-  <description>A simple demo-proj.</description>
+  <name>feedback</name>
+  <description>A simple feedback.</description>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 

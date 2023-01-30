@@ -1,4 +1,4 @@
-package 1234;
+package rsaai;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
