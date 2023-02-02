@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
-<project name="devproj" xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project name="${artifactId}" xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
   <bannerLeft>
-    <name>devproj</name>
+    <name>${artifactId}</name>
     <src>https://maven.apache.org/images/apache-maven-project.png</src>
     <href>https://www.apache.org/</href>
   </bannerLeft>
@@ -20,7 +20,14 @@
   </skin>
 
   <body>
-    <menu ref="parent" />
+    <links>
+      <item name="Maven" href="https://maven.apache.org/"/>
+    </links>
+
+    <menu name="Documentation">
+      <!--<item name="Xdoc Example" href="xdoc.html"/>-->
+    </menu>
+
     <menu ref="reports" />
   </body>
 </project>
