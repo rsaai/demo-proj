@@ -1,4 +1,4 @@
-package rsaai;
+package pom.xml;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
